@@ -1,0 +1,241 @@
+body{
+	height: 100%;
+	margin: 0;
+	background-color: #e2e2e2;
+	}
+
+Head{
+	 position:fixed; 
+	 margin:0px; 
+	 width:100%; 
+}
+
+h1{
+
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+font-size: 50px;
+
+color:whitesmoke;
+ -webkit-text-stroke: 2px black;
+margin:0px;
+
+text-align: center;
+
+padding: 40px;
+
+background-color:#6ea91a;
+  background-image: url("ui/simple/images/Tree-RootT.jpg"); 
+
+/* box-shadow: 10px 10px 5px #111f2e; */
+box-shadow: 10px 10px 5px #111f2e;
+text-shadow: 10px 10px 5px black;
+}
+
+H4{
+	font-family: Ariel;
+    font-size: 20px;
+}
+
+
+.footer {
+	
+	
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #6ea91a;
+  color: white;
+  text-align: center; 
+  /*background-image:  , url("ui/simple/images/Tree-RootT.jpg"),url("ui/simple/images/footerGrass.png");*/
+  background-image:  url("ui/simple/images/footergrass.jpg"); 
+
+}
+	
+
+.wrapper{
+		
+	width: 960px ;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	background-color:transparent;
+		
+}
+
+
+/* START Navigation Bar*/
+[class*="col-"]{
+				
+}
+.col ul {list-style:none;  margin:0; padding:0;  }
+.col li {
+         float:left;
+         width:190px;
+         background-color: #0a0a0a;
+         box-shadow: 10px 10px 5px #111f2e;
+         text-align:center;
+         position:relative;
+         height:33px;
+         line-height:30px;
+         border-radius: 10px 40px;
+         }
+.col a {text-decoration:none; color:whitesmoke; font-family: Ariel; font-size: 25px;}
+.col li:hover ul {visibility:visible;}
+.col li:hover {background-color:rgba(44, 27, 27, 0.267); box-shadow: 10px 10px 5px #7d8186;}
+/* END Navigation Bar*/
+
+/*Side bar*/
+
+.boxSide{
+	width: 100%;
+	height: auto;
+
+}
+
+[class*="side"]{
+}
+
+.side li {
+			list-style:none; width:auto; text-align:center;  font-size: 15px;
+			position:relative; height:33px; padding: 12px; line-height:30px; 
+			border: 1px solid rgb(231, 222, 222);  display: block;
+		 }
+.side a {text-decoration:none; color:black; font-family: Ariel;	font-size: 2vw;}
+.side li:hover ul {visibility:visible;}
+.side li:hover {background-color:rgba(44, 27, 27, 0.267);}
+
+ 
+/*End side bar*/
+.boxI{
+	width:100%;
+	height:100vh;
+	margin-top:60px;
+	background-color: #305782;
+	Position:relative;
+}
+
+.boxIC{
+		width:66%;
+		height:100vh;
+		margin:15%;
+		margin-top: 15px;
+		background-color: transparent;
+		position: relative;
+		float: left;
+}
+
+.boxT{
+		width:25%;
+		height: auto;
+		background-color:transparent;
+		margin:20px;
+		position: relative;
+		float:left;
+}
+
+.boxA{
+		width:22%;
+		height: auto;
+		background-color:white;
+		margin-top:20px;
+		position: fixed;
+		box-shadow: 10px 10px 5px grey;
+}
+
+
+
+
+.boxMU{
+	/*height:80px;
+	background-color:white;
+    margin:20px;*/
+	height: auto;
+	border: 1px solid #ddd; /* Add a border to all links */
+	margin-top: -1px; /* Prevent double borders */
+	background-color: #f6f6f6; /* Grey background color */
+	padding: 8px; /* Add some padding */
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration: none; /* Remove default text underline */
+	color: black; /* Add a black text color */
+	display: block; /* Make it into a block element to fill the whole list */
+}
+
+.boxMU p {
+	text-shadow: 2px 2px 7px black;
+	font-size: 2vw; /* Increase the font-size */
+
+}
+
+.boxM{
+	/*height:80px;
+	background-color:white;
+    margin:20px;*/
+	width:15%;
+	height: 10vh;
+	border: 1px solid #ddd; /* Add a border to all links */
+	margin-top: -1px; /* Prevent double borders */
+	margin-bottom: 15px;
+	margin-right:15px;
+	margin-left:15px;
+	background-color: #b3b58f; /* Grey background color */
+	padding: 12px; /* Add some padding */
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration: none; /* Remove default text underline */
+	font-size: 20px; /* Increase the font-size */
+	color: black; /* Add a black text color */
+	display: block; /* Make it into a block element to fill the whole list */
+	float: left;
+	box-shadow: 10px 10px 5px #111f2e;
+	border-radius: 10px 40px;
+    
+}
+
+
+.boxM:hover {
+	visibility:visible;
+     background-color:rgb(93 58 58 / 37%);
+     }
+
+.boxMT{
+	width: auto;
+	height:50vh;
+	background-color: white;
+	margin:20px;
+	padding: 15px;
+	font-size:20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	clear: both;
+	box-shadow: 10px 10px 5px #000000;
+}
+
+.warranty{
+	width:100%;
+	height:auto;
+	background-color:#rgba(44, 27, 27, 0.267);
+	margin-top: 20px;
+	position:relative;
+}
+
+.boxHead{
+	width: 100%;
+	background-color: transparent;
+}
+
+.boxMIV{
+	width:100%;
+	height:auto;
+	background-color: transparent;
+	margin:0px;
+}
+
+#lisa {
+	display: block;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}

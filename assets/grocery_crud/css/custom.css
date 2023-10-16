@@ -1,0 +1,424 @@
+body{
+	height: 100%;
+	margin: 0;
+	background-color: #e2e2e2;
+	}
+
+Head{
+	 position:fixed; 
+	 margin:0px; 
+	 width:100%; 
+}
+
+h1{
+
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+font-size: 50px;
+
+color:whitesmoke;
+ -webkit-text-stroke: 2px black;
+margin:0px;
+
+text-align: center;
+
+padding: 40px;
+
+background-color:#6ea91a;
+  background-image: url("ui/simple/images/Tree-RootT.jpg"); 
+
+/* box-shadow: 10px 10px 5px #111f2e; */
+box-shadow: 10px 10px 5px #111f2e;
+text-shadow: 10px 10px 5px black;
+}
+
+h2{
+
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color:black;
+ -webkit-text-stroke: 2px rgba(255,255,255,.15);
+margin:0px;
+
+text-align: center;
+/* box-shadow: 10px 10px 5px #111f2e; */
+text-shadow: 10px 10px 5px #111f2e;
+}
+
+
+H4{
+	font-family: Ariel;
+    font-size: 20px;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #6ea91a;
+  color: white;
+  text-align: center; 
+  /*background-image:  , url("ui/simple/images/Tree-RootT.jpg"),url("ui/simple/images/footerGrass.png");*/
+  background-image:  url("ui/simple/images/footergrass.jpg"); 
+  
+
+}
+
+.wrapper{
+		
+	width: 960px ;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	background-color:transparent;
+		
+}
+
+
+/* START Navigation Bar*/
+[class*="col-"]{
+				
+}
+.col ul {list-style:none;  margin:0; padding:0;  }
+.col li {
+         float:left;
+         width:190px;
+         background-color: #0a0a0a;
+         box-shadow: 10px 10px 5px #111f2e;
+         text-align:center;
+         position:relative;
+         height:33px;
+         line-height:30px;
+         border-radius: 10px 40px;
+         }
+.col a {text-decoration:none; color:whitesmoke; font-family: Ariel; font-size: 25px;}
+.col li:hover ul {visibility:visible;}
+.col li ul li {float:left; width:190px; text-align:center; padding-left:0px;
+         border-top:1px solid white;      background-color:   #867676;   }
+.col li ul {position:absolute; top:33px; left:0; visibility:hidden;}
+.col li:hover {background-color:rgba(44, 27, 27, 0.267); box-shadow: 10px 10px 5px #7d8186;}
+/* END Navigation Bar*/
+
+
+.boxI{
+	width:100%;
+	height:100vh;
+	margin-top:60px;
+	background-color: #305782;
+	Position:relative;
+}
+
+.boxIC{
+		width:66%;
+		height:100vh;
+		margin:15%;
+		margin-top:10px;
+		background-color: transparent;
+		position: relative;
+		float: left;
+}
+
+.boxT {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+.boxAA{
+		width: fit-content;
+		height: auto;
+		background-color:white;
+		margin-top:20px;
+		position: absolute;
+		box-shadow: 10px 10px 5px grey;
+		position:relative;
+}
+.boxA {
+    width: fit-content;
+    height: auto;
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+
+.boxMU {
+	width:fit-content;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 25px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.boxMU {
+	text-shadow: 2px 2px 7px black;
+	font-size: 2vw; /* Increase the font-size */
+
+}
+
+.boxM{
+	/*height:80px;
+	background-color:white;
+    margin:20px;*/
+	width:15%;
+	height: 10vh;
+	border: 1px solid #ddd; /* Add a border to all links */
+	margin-top: -1px; /* Prevent double borders */
+	margin-bottom: 15px;
+	margin-right:15px;
+	margin-left:15px;
+	background-color: #b3b58f; /* Grey background color */
+	padding: 12px; /* Add some padding */
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration: none; /* Remove default text underline */
+	font-size: 20px; /* Increase the font-size */
+	color: black; /* Add a black text color */
+	display: block; /* Make it into a block element to fill the whole list */
+	float: left;
+	box-shadow: 10px 10px 5px #111f2e;
+	border-radius: 10px 40px;
+    
+}
+
+.boxMQuery{
+	
+	width:fit-content;
+	height: 10vh;
+	border: 1px solid #ddd; /* Add a border to all links */
+	margin-top: -1px; /* Prevent double borders */
+	margin-bottom: 15px;
+	margin-right:15px;
+	margin-left:15px;
+	background-color: #b3b58f; /* Grey background color */
+	padding: 12px; /* Add some padding */
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration: none; /* Remove default text underline */
+	font-size: 20px; /* Increase the font-size */
+	color: black; /* Add a black text color */
+	display: block; /* Make it into a block element to fill the whole list */
+	float: left;
+	box-shadow: 10px 10px 5px #111f2e;
+	border-radius: 10px 40px;
+    
+}
+
+
+
+.boxM:hover {
+	visibility:visible;
+     background-color:rgb(93 58 58 / 37%);
+     }
+
+.boxMT{
+	width: auto;
+	height:50vh;
+	background-color: white;
+	margin:20px;
+	padding: 15px;
+	font-size:20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	clear: both;
+	box-shadow: 10px 10px 5px #000000;
+}
+
+.boxMTQuery{
+	width:fit-content;
+	height:50vh;
+	background-color: white;
+	margin:20px;
+	padding: 15px;
+	font-size:20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	clear: both;
+	box-shadow: 10px 10px 5px #000000;
+}
+
+.warranty{
+	width:100%;
+	height:auto;
+	background-color:#rgba(44, 27, 27, 0.267);
+	margin-top: 20px;
+	position:relative;
+}
+
+.guide{
+    width: 100%;
+    height: auto;
+    background-color: #rgba(44, 27, 27, 0.267);
+    margin-top: 20px;
+    position: relative;
+}
+
+.boxHead{
+	width: 100%;
+	background-color: transparent;
+}
+
+.boxMIV{
+	width:100%;
+	height:auto;
+	background-color: transparent;
+	margin:0px;
+}
+
+#lisa {
+	display: block;
+	padding-top: 20px;
+	width:fit-content;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color:#000000;
+    width:100%;
+    text-align: center;
+    font-size:30px
+    box-shadow: 10px 10px 5px #000000;
+    color:whitesmoke;
+	margin-top: 0px;
+}
+
+
+p {
+    margin-bottom: 0px;}
+
+/* START Navigation Bar*/
+[class*="foot-"]{
+				
+}
+.foot ul {list-style:none;  margin:0; padding:0; display: flex;
+  flex-direction:row-reverse;  
+  }
+.foot li {
+         float:left;
+         width:150px;
+         background-color: transparent;
+         box-shadow: 10px 10px 5px #111f2e;
+         text-align:center;
+         position:relative;
+         height:auto;
+         line-height:30px;
+  
+         }
+.foot a {text-decoration:none; color:black; font-family: Ariel; }
+.foot li:hover ul {visibility:visible;}
+.foot li ul li {float:left; width:150px; text-align:center; padding-left:0px;
+         border-top:1px solid white;      background-color:   #867676; bottom: 50px; z-index: 1;}
+.foot li ul {position:absolute;  left:0; visibility:hidden; }
+.foot li:hover {background-color:rgba(44, 27, 27, 0.267); box-shadow: 10px 10px 5px #7d8186;}
+
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  float:left;
+}
+
+.dropup {
+  position: relative;
+  
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  bottom: 1px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+}
+
+/* END Navigation Bar*/
+
+/*Side bar*/
+
+.boxSide{
+	width: 100%;
+	height: auto;
+
+}
+
+[class*="side"]{
+	padding: 10px;
+}
+
+.side li {
+			/* list-style:none; */
+			width: auto;
+			text-align:center;
+			font-size: 20px;
+			position:relative;
+			height: auto;
+			padding: 12px;
+			line-height:30px;
+			border: 1px solid rgb(231, 222, 222);
+			display: block;
+			}
+.side a {text-decoration:none; color:black; font-family: Ariel;	font-size: 2vw;}
+.side li:hover ul {visibility:visible;}
+.side li:hover {background-color:rgba(44, 27, 27, 0.267);}
+
+
+.apple {
+  background: green;
+  background: linear-gradient(#5bc236, #308014, #006400);
+  width: 208px;
+  height: 198px;
+  position: absolute;
+  border-radius: 35% 35% 41% 41% / 42% 42% 75% 75%;
+}
+
+.apple:before {
+  background: #5bc236;
+  content: "";
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  margin: -51px 0 0 100px;
+  border-radius: 100px 0;
+  z-index: 5;
+}
+
+.apple:after {
+  background: #F5FFFA;
+  content: "";
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 28px 0 0 174px;
+  border-radius: 50%;
+  transform: rotate (-53deg);
+  z-index: 4;
+  box-shadow: -127px -109.5px 0 #f5fffa, -118px -107px 0 #f5fffa, -115.5px -102.5px 0 #f5fffa, -105.5px -109.5px 0 #f5fffa, -105px -109.5px 0 #f5fffa, -129px 166px 0 #F5FFfa, -107.5px 166px 0 #F5FFFA, -119px 161px 0 #F5FFFA;
+}
